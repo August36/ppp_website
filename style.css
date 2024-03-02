@@ -13,7 +13,6 @@ body{
 
 p{
     color: #C9C7C7;
-    font-family: Arial, Helvetica, sans-serif;
     border: solid 1px #C9C7C7;
 }
 
@@ -31,13 +30,15 @@ p{
 }
 
 .large_text_container{
-    font-size: 54px;
-    letter-spacing: 0.1em;
     margin-bottom: 10px;
 }
 
 .large_text{
     padding-left: 5px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 54px;
+    letter-spacing: 0.2em;
 }
 
 .spring_container{
@@ -57,8 +58,9 @@ p{
 
 .aboutme_text {
     color: #C9C7C7;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;    font-size: 16px;
     line-height: 1.5;
     padding: 20px;
 }
@@ -100,7 +102,6 @@ p{
     .large_text_container {
         width: 320px;
         height: 430px;
-        font-size: 2.5rem;
         grid-column: 4 / 7;
         display: flex;
         flex-direction: column;
@@ -109,7 +110,7 @@ p{
     
     .large_text {
         flex: 1;
-        padding-top: 12px;
+        font-size: 2.5em;
     }
 
     .spring_container {
@@ -158,7 +159,6 @@ p{
     .large_text_container {
         width: 641px;
         height: 460px;
-        font-size: 3rem;
         grid-column: 3 / 6;
         display: flex;
         flex-direction: column;
@@ -166,10 +166,11 @@ p{
     }
     
     .large_text {
+        padding-left: 10px;
         flex: 1;
-        padding-top: 8px;
-        font-size: 3.6rem;
-        letter-spacing: 20px;
+        font-size: 3rem;
+        letter-spacing: 1.6rem;
+        font-weight: 700;
     }
 
     .spring_container {
@@ -187,8 +188,9 @@ p{
 
     .aboutme_text {
         color: #C9C7C7;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;        font-size: 18px;
         line-height: 1.5;
         padding: 28px;
     }
