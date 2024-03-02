@@ -30,10 +30,14 @@ p{
     margin-bottom: 10px;
 }
 
-.brutal_text_container{
+.large_text_container{
     font-size: 54px;
     letter-spacing: 0.1em;
     margin-bottom: 10px;
+}
+
+.large_text{
+    padding-left: 5px;
 }
 
 .spring_container{
@@ -65,6 +69,13 @@ p{
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
+}
+
+.content_container, .content_container2{
+    border: solid 1px #C9C7C7;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
 }
 
 
