@@ -16,7 +16,9 @@ p{
     border: solid 1px #C9C7C7;
 }
 
-.main_container {
+/**************MOBILE**************/
+
+.main_container{
     display: flex;
     justify-content: center;
 }
@@ -56,11 +58,12 @@ p{
     margin-bottom: 10px;
 }
 
-.aboutme_text {
+.aboutme_text{
     color: #C9C7C7;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-style: normal;    font-size: 16px;
+    font-style: normal;
+    font-size: 16px;
     line-height: 1.5;
     padding: 20px;
 }
@@ -190,7 +193,8 @@ p{
         color: #C9C7C7;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        font-style: normal;        font-size: 18px;
+        font-style: normal;
+        font-size: 18px;
         line-height: 1.5;
         padding: 28px;
     }
