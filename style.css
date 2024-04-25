@@ -19,8 +19,7 @@ a {
   text-decoration: none;
 }
 
-/**************MOBILE**************/
-
+/* MOBILE */
 .main_container {
   display: flex;
   justify-content: center;
@@ -128,7 +127,7 @@ footer {
   font-size: 16px;
 }
 
-/**************TABLET**************/
+/* TABLET */
 @media (min-width: 768px) {
   #main_container {
     display: grid;
@@ -229,7 +228,8 @@ footer {
     grid-row: 10;
   }
 }
-/**************DESKTOP**************/
+
+/* DESKTOP */
 @media (min-width: 1280px) {
   #main_container {
     display: grid;
@@ -303,30 +303,29 @@ footer {
     max-width: 1140px;
   }
 
-  @media (min-width: 1280px) {
-    .content_flex,
-    .content_flex2,
-    .content_flex3 {
-      max-width: 300px;
-      margin-top: 0px;
-    }
+  .content_flex,
+  .content_flex2,
+  .content_flex3 {
+    max-width: 300px;
+    margin-top: 0px;
+  }
 
-    .content_flex p, .content_flex2 p, .content_flex3 p {
-      margin-bottom: 10px;
-    }
-    
-    .content,
-    .content2,
-    .content3 {
-      max-width: 320px;
-      height: 240px;
-      margin-top: 0;
-    }
-    
-    footer {
-      width: 1080px;
-      grid-row: 9;
-    }
+  .content_flex p,
+  .content_flex2 p,
+  .content_flex3 p {
+    margin-bottom: 10px;
+  }
+
+  .content,
+  .content2,
+  .content3 {
+    max-width: 320px;
+    height: 240px;
+    margin-top: 0;
+  }
+
+  footer {
+    width: 1080px;
+    grid-row: 9;
   }
 }
-  
